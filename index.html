@@ -19,6 +19,23 @@
             border-radius: 3px;
             border-color: blue;
         }
+
+        .box{
+            width: 50%;
+            height: 150px;
+            display: inline-block;
+            padding: 20px;
+        }
+
+        .red {
+            background-color: red;
+            box-sizing: border-box;
+            }
+            
+        .green {
+            background-color: green;
+        }
+
     </style>
 </head>
 <body>
@@ -32,7 +49,7 @@
         <p>I'm a paragraph and i'm ready.</p>
         <p>I'm Also another parayagraph and looking ready</p>
         <p>This is the third one, you better accept that.</p>
-    <img src="Good.jpeg"/>
+    <img src="Good.jpeg" alt="my picture"/>
     </div>
 
     <div>
@@ -47,6 +64,22 @@
         
         </ol>
     </div>
+    <div>
+        <form action="onclick" method="post">
+            <input type="text" />
+            <input type="email" />
+            <input type="number" />
+            <input type="datetime-local" />
+            <input type="button" value="I'm input button" />
+        </form>
+        <button>I'm a button </button>
+    </div>
+
+    <div style="margin-top: 50px;"> 
+        <div class = "box red"> box 1</div>
+        <div class = "box green"> box 2</div>
+    </div>
+    
     
 </body>
 </html>
